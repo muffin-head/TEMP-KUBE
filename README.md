@@ -1,4 +1,4 @@
-# 👋 Hello World App on Kubernetes
+# Hello World App on Kubernetes
 
 This is a small demo project that shows how to:
 
@@ -14,7 +14,7 @@ This is a small demo project that shows how to:
 
 ---
 
-## 🚀 What This App Does
+##  What This App Does
 
 It’s a basic web server that replies with:
 
@@ -26,7 +26,7 @@ It’s useful for learning how to deploy apps to Kubernetes step-by-step.
 
 ---
 
-## 💪 How to Run This
+##  How to Run This
 
 ### Step 1 – Build the Docker Image
 
@@ -44,7 +44,7 @@ Visit [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## ☘️ Deploy to Kubernetes
+##  Deploy to Kubernetes
 
 Make sure your cluster is ready (Minikube or GKE)
 
@@ -60,7 +60,7 @@ kubectl apply -f rbac.yaml
 
 ---
 
-## 🌐 Access the App
+##  Access the App
 
 1. Get the Ingress IP:
 
@@ -82,7 +82,7 @@ http://hello.local
 
 ---
 
-## ✅ Features Used
+##  Features Used
 
 * 2 Replicas (auto scaling-ready)
 * Resource requests/limits (safe usage)
