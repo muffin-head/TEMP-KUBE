@@ -90,6 +90,3 @@ http://hello.local
 * PVC for storage (optional)
 * RBAC for safer access
 
----
-
-Let me know if you want to extend this to run a machine learning model!
